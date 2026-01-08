@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solomon Bakker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(135deg, #ff8c00, #ff3cac);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      animation: bgAnim 10s ease infinite alternate;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin: 0.5em 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.5rem;
+      max-width: 600px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      background: rgba(0,0,0,0.2);
+      padding: 0.5em 1em;
+      border-radius: 8px;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    a:hover {
+      transform: scale(1.1);
+      background: rgba(0,0,0,0.4);
+    }
+
+    @keyframes bgAnim {
+      0% { background: linear-gradient(135deg, #ff8c00, #ff3cac); }
+      50% { background: linear-gradient(135deg, #ff3cac, #00ffff); }
+      100% { background: linear-gradient(135deg, #00ffff, #ff8c00); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Solomon Bakker</h1>
+  <p>Artist. Alchemist of the Mind, Body & Soul. Exploring vibrant forms, colors & ideas.</p>
+  <a href="#contact">Get in Touch</a>
+</body>
+</html>
